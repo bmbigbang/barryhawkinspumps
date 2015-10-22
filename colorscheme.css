@@ -1,0 +1,256 @@
+/*----------------------------------------------------------------------------
+	colorscheme.css for colorscheme 1
+
+	this css-file contains all definitions, that depend on the colorscheme.
+
+	(c) Schlund + Partner AG
+----------------------------------------------------------------------------*/
+
+/*-- main container --------------------------------------------------------*/
+
+#container {
+    background: repeat-y 100% 0%;
+    background-image: url(images/static/contentbg.gif);
+    background-color: #265a63;
+}
+
+/*--- header ---------------------------------------------------------------*/
+
+#header {
+    background: no-repeat;
+    background-image: url(images/static/headerbg.gif);
+}
+
+/*--- main navigation ------------------------------------------------------*/
+
+/*--- sub navigation -------------------------------------------------------*/
+
+/*--- key visiual ----------------------------------------------------------*/
+
+#key_visual {
+    background: no-repeat;
+}
+
+/*--- logo -----------------------------------------------------------------*/
+
+/*--- caption --------------------------------------------------------------*/
+
+#slogan {
+    xbackground: url(images/static/hbg.gif) no-repeat;
+}
+
+/*--- main navigation ------------------------------------------------------*/
+
+/*--- main navigation items ------------------------------------------------*/
+
+a.main_nav_item {
+    background: no-repeat;
+}
+
+a.main_nav_item:hover {
+    background: no-repeat;
+}
+
+a.main_nav_active_item {
+    background: no-repeat;
+}
+
+/*--- subnavigation items --------------------------------------------------*/
+
+a.sub_nav_item {
+    background: no-repeat;
+}
+
+a.sub_nav_item:hover {
+    background: no-repeat;
+}
+
+a.sub_nav_active_item {
+    background: no-repeat;
+}
+
+/*--- search ---------------------------------------------------------------*/
+
+/*--- footer ---------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------
+  weblog styles
+----------------------------------------------------------------------------*/
+
+/*--- a container for the "about me" box -----------------------------------*/
+
+/*--- weblog categories ----------------------------------------------------*/
+
+/*--- weblog last comments -------------------------------------------------*/
+
+#weblog_last_comments_container li {
+    xborder-color: #ddd6d4;
+}
+
+/*--- weblog external links ------------------------------------------------*/
+
+/*--- weblog search --------------------------------------------------------*/
+
+/*--- weblog content -------------------------------------------------------*/
+
+.weblog_article_quote {
+    font-size: 25px;
+}
+
+#weblog_pager {
+    color: #ffffff;
+    color: #ffffff;
+}
+
+#weblog_search_button button {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background-color: #07353a;
+}
+
+/*----------------------------------------------------------------------------
+  forum styles
+----------------------------------------------------------------------------*/
+
+#content_search_caption {
+    color: #ffffff;
+}
+
+#content_search_button {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background-color: #07353a;
+}
+
+#forum_new_topic_button {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background-color: #07353a;
+}
+
+#forum_new_message_button {
+    margin: 30px 0 0 0;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background-color: #07353a;
+}
+
+#forum_cancle_button {
+    margin: 30px 0 0 100px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background-color: #07353a;
+}
+
+#forum_search_container button {
+    margin-left: 5px;
+    vertical-align: middle;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background-color: #07353a;
+}
+
+#forum_topics_container table {
+    border-color: #b4a5a1;
+}
+
+#forum_topics_container th {
+    background-color: #e4e0de;
+    color: #000000;
+    border-color: #b4a5a1;
+}
+
+#forum_messages_container table {
+    border-color: #b4a5a1;
+}
+
+#forum_messages_container th {
+    background-color: #e4e0de;
+    color: #000000;
+    border-color: #b4a5a1;
+}
+
+#forum_pager {
+    color: #b4a5a1;
+}
+
+/*----------------------------------------------------------------------------
+  default-styles for html-elements
+----------------------------------------------------------------------------*/
+
+/*--- body -----------------------------------------------------------------*/
+
+body#main_body {
+    color: #ffffff;
+}
+
+/*--- paragraph ------------------------------------------------------------*/
+
+/*--- headings -------------------------------------------------------------*/
+
+.content h1 {
+    border-bottom: 1px dashed #74acd0;
+}
+
+.content h2 {
+    border-bottom: 1px dashed #74acd0;
+}
+
+.content h3 {
+    border-bottom: 1px dashed #74acd0;
+}
+
+/*--- links ----------------------------------------------------------------*/
+
+/*--- tables ---------------------------------------------------------------*/
+
+.content th {
+    color: #ffffff;
+    background-color: #ae9e9a;
+    padding: 3px 2px 3px 2px;
+}
+
+.content tr.odd {
+    color: #755b53;
+    background-color: #BCBCBC;
+    /*#f9f8f8;*/
+
+    padding: 3px 2px 3px 2px;
+}
+
+.content tr.even {
+    color: #755b53;
+    background-color: #B9B39B;
+    /*#f2efef;*/
+
+    padding: 3px 2px 3px 2px;
+}
+
+/*--- forms ----------------------------------------------------------------*/
+
+.content fieldset {
+    border-color: #84685e;
+}
+
+.content legend {
+    color: #84685e;
+}
+
+.content label {
+    color: #84685e;
+}
+
+.content input {
+    border-color: #84685e;
+}
+
+.content textarea {
+    border-color: #84685e;
+}
+
+/*--------------------------------------------------------------------------*/
+
+#content_container {
+    color: #ffffff;
+}
+

@@ -1,0 +1,78 @@
+
+/*-- global container ------------------------------------------------------*/
+
+#container {
+	position: relative;
+	padding: 0;
+	text-align: left;
+	width: 50%;
+	left: 25%;
+}
+
+
+
+#content_container {
+    padding: 0;
+    margin: 0;
+	position: relative;
+	width: 60%;
+	left: 8%;
+    overflow: hidden;
+}
+
+
+/*--- header ---------------------------------------------------------------*/
+
+#header {
+    /*	position: relative; */
+	position: relative;
+	max-width: 100%;
+	max-height: 100%;
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    top: 0px;
+    left: 0px;
+}
+
+
+
+/*--- main navigation ------------------------------------------------------*/
+
+#main_nav_container {
+	position: relative;
+	float: left;
+    padding: 0;
+	left: 3%;
+}
+
+#main_nav_list {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#main_nav_list li {
+    margin: 0;
+    padding: 0;
+}
+
+/*--- main navigation items ------------------------------------------------*/
+
+#main_nav_list a {
+    display: block;
+    text-align: left;
+    line-height: 30px;
+    height: 34px;
+    padding: 3px 0 0 15px;
+    overflow: hidden;
+    width: 126px;
+}
+
+
+
+body#main_body {
+    margin: 0;
+    padding: 0;
+}
